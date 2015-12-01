@@ -1,5 +1,5 @@
-title:            Site Title
-description:      Describe your website here.
+title:            燕子南
+description:      It's my world.
 disqus_shortname: hpstrtheme
 reading_time:     true
 words_per_minute: 200
@@ -9,14 +9,14 @@ url:
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           yannan
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  bio:            "清风徐来，水波不兴"
+  email:          yannan786@email.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         
+  github:         github.com/yannan
   stackexchange:  
   linkedin:       
   instagram:      
