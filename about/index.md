@@ -14,8 +14,8 @@ modified: 2016-01-13
  - 燕楠/男/1992 
  - 本科/北京邮电大学
  - 工作年限：1年
- - 技术博客：http://yannan.github.io 
- - Github：http://github.com/yannan, http://www.cnblogs.com/yannanyan/ 
+ - 技术博客：http://yannan.github.io , http://www.cnblogs.com/yannanyan/ 
+ - Github：http://github.com/yannan
 
  - 期望职位：Web前端工程师
  - 期望薪资：税前月薪10k~12k
