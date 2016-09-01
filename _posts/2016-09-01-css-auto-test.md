@@ -25,6 +25,36 @@ git clone https://github.com/Huddle/PhantomCSS.git
 cd PhantomCSS
 {% highlight%}
 
+这个项目包包含了CasperJS, resembleJS, 以及PhantomJS的版本。然而，这个内置的PhantomJS只能在windows平台上工作。对于其他操作系统的安装，参见[PhantomJS安装指南](http://phantomjs.org/download.html)。除了PhantomJS，你需要确保你使用的是内置的软件版本(如果你没有改任何东西，你使用的就是内置的包)。我最初想使用之前已经通过NPM安装的CasperJS包，为此我浪费了很长的时间去让PhantomCSS依赖最新版本的CasperJS运行，即使内置的包能运行的好好的。
+
+### 怎么去做
+
+确保一切都是正常工作的情况下运行测试用例两次：
+
+{% highlight linenos %}
+phantomjs demo/testsuite.js
+{% highlight%}
+
+第一次你应该会看到下面的结果：
+
+{% highlight linenos %}
+Must be your first time?
+Some screenshots have been generated in the directory ./screenshots
+This is your 'baseline', check the images manually. If they're wrong, delete the images.
+The next time you run these tests, new screenshots will be taken.  These screenshots will be compared to the original.
+If they are different, PhantomCSS will report a failure.
+ 
+THE END.
+{% highlight%}
+
+第二次运行：
+
+{% highlight linenos %}
+PhantomCSS found: 4 tests.
+None of them failed. Which is good right?
+If you want to make them fail, go change some CSS - weirdo.
+{% highlight%}
+
 {% highlight javascript linenos %}
 /*
     Initialise CasperJs
