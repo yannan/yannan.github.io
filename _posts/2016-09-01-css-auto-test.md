@@ -8,7 +8,7 @@ image:
   feature: abstract-1.jpg
 ---
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 module Jekyll
   class TagIndex < Page
     def initialize(site, base, dir, tag)
