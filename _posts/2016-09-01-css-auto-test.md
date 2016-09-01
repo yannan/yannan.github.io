@@ -8,24 +8,65 @@ image:
   feature: abstract-1.jpg
 ---
 
-{% highlight ruby linenos %}
-module Jekyll
-  class TagIndex < Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&#8211;'
-      self.data['title'] = "#{tag_title_prefix}#{tag}"
-      self.data['description'] = "An archive of posts tagged #{tag}."
-    end
-  end
-end
+{% highlight javascript linenos %}
+/*
+    Initialise CasperJs
+*/
+ 
+phantom.casperPath = 'CasperJs';
+phantom.injectJs(phantom.casperPath + '/bin/bootstrap.js');
+phantom.injectJs('jquery.js');
+ 
+var casper = require('casper').create({
+    viewportSize: {
+        width: 1027,
+        height: 800
+    }
+});
+ 
+/*
+    Require and initialise PhantomCSS module
+*/
+ 
+var phantomcss = require('./phantomcss.js');
+ 
+phantomcss.init({
+    screenshotRoot: './screenshots',
+    failedComparisonsRoot: './failures'
+});
+ 
+/*
+    The test scenario
+*/
+ 
+var url = 'http://www.mattsnider.com'; // replace with your URL
+ 
+casper.
+    start(url).
+    // screenshot the initial page load
+    then(function() {
+        phantomcss.screenshot('<SELECTOR_TO_SCREENSHOT>', '<LABEL_SCREENSHOT>');
+    }).
+    then(function() {
+        // do something
+    }).
+    // second screenshot
+    then(function() {
+        phantomcss.screenshot('<SELECTOR_TO_SCREENSHOT>', '<LABEL_SCREENSHOT>');
+    });
+ 
+/*
+    End tests and compare screenshots
+*/
+ 
+casper.
+    then(function now_check_the_screenshots() {
+        phantomcss.compareAll();
+    }).
+    run(function end_it() {
+        console.log('\nTHE END.');
+        phantom.exit(phantomcss.getExitStatus());
+    });
 {% endhighlight %}
 
 
