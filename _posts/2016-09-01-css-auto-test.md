@@ -149,3 +149,5 @@ phantomjs demo/mytest.js
    *在```this.evaluate(callback)```和```this.thenEvaluate(callback)```回调函数内部，你可以运行你所熟悉的JavaScript代码(比如```document.getElementById(id)```)，但是你没有权限对CasperJS的辅助函数这么做。
    *对CasperJS设置监听器，如果你想打印出你所评价的页面触发时的信息和警告。
 
+（全文完）
+
