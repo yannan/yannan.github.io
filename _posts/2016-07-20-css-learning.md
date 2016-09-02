@@ -2,7 +2,7 @@
 layout: post
 title: 【译文】CSS的边缘效应(Side Effects in CSS)
 description: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
-modified: 2015-12-4
+modified: 2016-8-4
 tags: [sample post]
 image:
   feature: abstract-1.jpg
@@ -28,6 +28,7 @@ image:
 ### CSS中最难的问题
 
   在CSS中存在两类问题，表层问题和结构问题。表层问题是指像垂直居中和等高列这类的经常引起大声地抱怨，但是从未打断它们的表演。
+  （未完）
 
 
 
