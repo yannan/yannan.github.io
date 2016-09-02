@@ -10,13 +10,13 @@ url:
 # Owner/author information
 owner:
   name:           yannan
-  avatar:         avatar.jpg
+  avatar:         user.jpg
   bio:            "清风徐来，水波不兴"
   email:          yannan786@email.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         github.com/yannan
+  github:         yannan
   stackexchange:  
   linkedin:       
   instagram:      
@@ -35,7 +35,7 @@ google_verify:
 bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    China/Beijing
 future:      true
 highlighter: pygments
 markdown:    kramdown
