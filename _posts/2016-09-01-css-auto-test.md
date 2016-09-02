@@ -8,7 +8,7 @@ image:
   feature: abstract-1.jpg
 ---
 
-*本文章原文链接[地址](http://mattsnider.com/using-phantomcss-for-regression-testing-your-css/)*，水平有限，如有翻译不当之处，请谅解并希望能指出。
+*本文章原文链接[地址](http://mattsnider.com/using-phantomcss-for-regression-testing-your-css/)，水平有限，如有翻译不当之处，请谅解并希望能指出。*
 
 　　我总算有机会玩了一下[PhantomCSS](https://github.com/Huddle/PhantomCSS)，这是一个对CSS进行回归测试的工具，它通过对屏幕截图的比较来判断CSS代码的变化是否对页面产生了影响，在这里我想跟大家分享一下我的经验。我们在Ariba公司将它用于验证当我们将两个巨大的未整合的CSS文件合并成一个简小的模块化的CSS时，是否破坏了页面的视觉效果，另外它能帮助我们更好地书写less文件。
 
