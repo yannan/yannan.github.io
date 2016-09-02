@@ -20,7 +20,10 @@ PhantomCSS使用了[CasperJS](http://github.com/n1k0/casperjs)，在[PhantomJS](
 
 最简单的开始方式就是通过克隆这个项目包然后通过```cd```命令进入：
 
-
+```
+git clone https://github.com/Huddle/PhantomCSS.git
+cd PhantomCSS
+```
 
 这个项目包包含了CasperJS, resembleJS, 以及PhantomJS的版本。然而，这个内置的PhantomJS只能在windows平台上工作。对于其他操作系统的安装，参见[PhantomJS安装指南](http://phantomjs.org/download.html)。除了PhantomJS，你需要确保你使用的是内置的软件版本(如果你没有改任何东西，你使用的就是内置的包)。我最初想使用之前已经通过NPM安装的CasperJS包，为此我浪费了很长的时间去让PhantomCSS依赖最新版本的CasperJS运行，即使内置的包能运行的好好的。
 
@@ -28,21 +31,37 @@ PhantomCSS使用了[CasperJS](http://github.com/n1k0/casperjs)，在[PhantomJS](
 
 确保一切都是正常工作的情况下运行测试用例两次：
 
-
+```
+phantomjs demo/testsuite.js
+```
 
 第一次你应该会看到下面的结果：
 
-
+```
+Must be your first time?
+Some screenshots have been generated in the directory ./screenshots
+This is your 'baseline', check the images manually. If they're wrong, delete the images.
+The next time you run these tests, new screenshots will be taken.  These screenshots will be compared to the original.
+If they are different, PhantomCSS will report a failure.
+ 
+THE END.
+```
 
 第二次运行：
 
-
+```
+PhantomCSS found: 4 tests.
+None of them failed. Which is good right?
+If you want to make them fail, go change some CSS - weirdo.
+```
 
 这个测试用例创建了一个简易的nodeJS服务器，并向服务器发送了一些请求。屏幕的截图会存放在```screenshots```目录下。如果你想知道当回归被检测出来时发生了什么，改变一些```demo/coffeemachine.html```文件的样式或者可见文本，然后再次运行```testsuite.js```。
 
 现在开始尝试你自己的测试用例。创建一个新的测试文件:
 
-
+```
+touch demo/mytest.js
+```
 
 然后将下面的代码写到文件里面(改写自```testsuite.js```)：
 
@@ -109,7 +128,9 @@ casper.
 
 必须改变casper测试地址，然后将它对你的网站运行：
 
-
+```
+phantomjs demo/mytest.js
+```
 
 ### 它是如何工作的
 
