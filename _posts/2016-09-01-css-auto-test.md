@@ -20,7 +20,7 @@ image:
 
 　　最简单的开始方式就是通过克隆这个项目包然后通过```cd```命令进入：
 
-{% highlight linenos %}
+{% highlight html linenos %}
 git clone https://github.com/Huddle/PhantomCSS.git
 cd PhantomCSS
 {% highlight%}
@@ -31,13 +31,13 @@ cd PhantomCSS
 
 确保一切都是正常工作的情况下运行测试用例两次：
 
-{% highlight linenos %}
+{% highlight html linenos %}
 phantomjs demo/testsuite.js
 {% highlight%}
 
 第一次你应该会看到下面的结果：
 
-{% highlight linenos %}
+{% highlight html linenos %}
 Must be your first time?
 Some screenshots have been generated in the directory ./screenshots
 This is your 'baseline', check the images manually. If they're wrong, delete the images.
@@ -49,7 +49,7 @@ THE END.
 
 第二次运行：
 
-{% highlight linenos %}
+{% highlight html linenos %}
 PhantomCSS found: 4 tests.
 None of them failed. Which is good right?
 If you want to make them fail, go change some CSS - weirdo.
@@ -59,7 +59,7 @@ If you want to make them fail, go change some CSS - weirdo.
 
 现在开始尝试你自己的测试用例。创建一个新的测试文件:
 
-{% highlight linenos %}
+{% highlight html linenos %}
 touch demo/mytest.js
 {% highlight %}
 
@@ -128,7 +128,7 @@ casper.
 
 必须改变casper测试地址，然后将它对你的网站运行：
 
-{% highlight linenos %}
+{% highlight html linenos %}
 phantomjs demo/mytest.js
 {% highlight %}
 
