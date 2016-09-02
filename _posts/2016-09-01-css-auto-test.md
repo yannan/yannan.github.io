@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 【译文】使用PhantomCSS对CSS进行回归测试(Using PhantomCSS for Regression Testing Your CSS)
-description: "UI自动化测试"
+description: "UI auto test"
 modified: 2016-09-02
 tags: [sample post]
 image:

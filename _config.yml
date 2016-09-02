@@ -35,7 +35,7 @@ google_verify:
 bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    China/Beijing
+timezone:    America/New_York
 future:      true
 highlighter: pygments
 markdown:    kramdown
