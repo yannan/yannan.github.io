@@ -14,7 +14,7 @@ image:
 
 PhantomCSS使用了[CasperJS](http://github.com/n1k0/casperjs)，在[PhantomJS](http://github.com/ariya/phantomjs/)（一个具有截图功能的测试框架）的基础上构建，另外采用[ResembleJS](http://huddle.github.com/Resemble.js/)比对图片。
 
-　　通过下载的方式使用所有的子组件时出奇的简单，但当我想使用```npm```命令来使用这些已安装的子组件时，一下子变得困难起来了。
+通过下载的方式使用所有的子组件时出奇的简单，但当我想使用```npm```命令来使用这些已安装的子组件时，一下子变得困难起来了。
 
 ### 准备
 
