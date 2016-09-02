@@ -17,9 +17,7 @@ modified: 2016-01-13
  - 技术博客：http://yannan.github.io , http://www.cnblogs.com/yannanyan/ 
  - Github：http://github.com/yannan
 
- - 期望职位：Web前端工程师
- - 期望薪资：税前月薪10k~12k
- - 期望城市：上海
+
 
 ---
 
@@ -61,5 +59,5 @@ modified: 2016-01-13
 - QQ：3085785393
 
 # 致谢
-感谢您花时间阅读我的简历，期待能有机会和您共事。
+
 
