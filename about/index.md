@@ -14,6 +14,7 @@ modified: 2016-01-13
  - 燕楠/男/1992 
  - 本科/北京邮电大学
  - 工作年限：2年
+ - 语言能力：英语6级
  - 技术博客：http://yannan.github.io , http://www.cnblogs.com/yannanyan/ 
  - Github：http://github.com/yannan
 
@@ -31,7 +32,7 @@ modified: 2016-01-13
 ### 畅言号web端 http://cyhweb.changyan.com/  以及  畅言号app端
 教育资源资讯类网站畅言号web端与app端的开发参与，主负责页面布局,web端工作涉及除数据交互之外的页面工作,app端主要完成页面适配及布局。
 
-###畅言互联教学助手
+### 畅言互联教学助手
 PC客户端项目的项目参与，涉及html5和css3，采用flex布局方式，主负责页面布局展示及css3和jQuery动画的开发工作。
 
 ## 北京朗明公共关系有限公司 （ 2015年3月 ~ 2015年6月 ）
@@ -48,7 +49,7 @@ PC客户端项目的项目参与，涉及html5和css3，采用flex布局方式�
 - pc端：html/css/javascript/jQuery
 - 移动端: html5/css3/zepto
 - 前端框架：Bootstrap/easyUI/vue
-- 前端工具：Bower/Gulp/Sass/LeSS
+- 前端工具：Gulp/Sass/LeSS
 - 后端相关: node/php/python
 - 数据库相关：MySQL/MongoDB
 - 版本管理、文档和自动化部署工具：Svn/Git
