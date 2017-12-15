@@ -8,7 +8,7 @@ image:
   feature: abstract-2.jpg
 ---
 
-# 派生(fork)仓库与上游保持更新
+### 派生(fork)仓库与上游保持更新
 
 1. 在组织仓库点击fork后，将仓库组织到自己的账号下，然后在自己的仓库下clone代码
 2. 使用`git remote -v`查看当前远程仓库地址，输出如下:
